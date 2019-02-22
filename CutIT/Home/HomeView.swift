@@ -17,8 +17,11 @@ class HomeView: UIViewController {
 	@IBOutlet weak var tableView: UITableView!
 	
 	//MARK: - Properties
-	var bookings = [Booking(date: 18, day: "Today", name: "Etiquette Barbers", location: "2406 E 8th St, Los Angeles"),
-					Booking(date: 23, day: "Sat", name: "Manly and Sons Barber Co.", location: "1200 N Alvarado St, New York")]
+	var bookings = [
+                    Booking(date: 18, day: "Today", name: "Etiquette Barbers", location: "2406 E 8th St, Los Angeles"),
+					Booking(date: 23, day: "Sat", name: "Manly and Sons Barber Co.", location: "1200 N Alvarado St, New York"),
+                    Booking(date: 23, day: "Sat", name: "Manly and Sons Barber Co.", location: "1200 N Alvarado St, New York")
+                    ]
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -54,6 +57,7 @@ extension HomeView: UITableViewDataSource, UITableViewDelegate {
 		detail.textColor = UIColor(rgb: 0x273D52)
 		headerView.addSubview(detail)
 		detail.textAlignment = .right
+        headerView.backgroundColor = .white
 		return headerView
 	}
 }
