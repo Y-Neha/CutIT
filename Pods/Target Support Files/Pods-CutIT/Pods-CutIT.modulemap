@@ -1,0 +1,6 @@
+framework module Pods_CutIT {
+  umbrella header "Pods-CutIT-umbrella.h"
+
+  export *
+  module * { export * }
+}

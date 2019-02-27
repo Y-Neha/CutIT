@@ -22,9 +22,14 @@
 		5134017B21FDEFA100C8AF8D /* SFUIText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5134017A21FDEFA100C8AF8D /* SFUIText-Medium.ttf */; };
 		5134017D21FDF41E00C8AF8D /* BookingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5134017C21FDF41E00C8AF8D /* BookingCell.swift */; };
 		C54F91702220165400DDFCA4 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F916F2220165400DDFCA4 /* GradientView.swift */; };
+		C54F91732220209400DDFCA4 /* PropositionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F91712220209400DDFCA4 /* PropositionCell.swift */; };
+		C54F91742220209400DDFCA4 /* PropositionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C54F91722220209400DDFCA4 /* PropositionCell.xib */; };
+		C5BF8E16222551940002E0BE /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BF8E15222551940002E0BE /* Header.swift */; };
+		E1B65988F8B5B23E6262FE0C /* Pods_CutIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050883980CA4666BD364E1B4 /* Pods_CutIT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		050883980CA4666BD364E1B4 /* Pods_CutIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CutIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5134014F21FD958300C8AF8D /* CutIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CutIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5134015221FD958300C8AF8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5134015721FD958300C8AF8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
@@ -41,7 +46,12 @@
 		5134017421FDCFAE00C8AF8D /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
 		5134017A21FDEFA100C8AF8D /* SFUIText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Medium.ttf"; sourceTree = "<group>"; };
 		5134017C21FDF41E00C8AF8D /* BookingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingCell.swift; sourceTree = "<group>"; };
+		6294744A17031A0D260172C3 /* Pods-CutIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CutIT.release.xcconfig"; path = "Pods/Target Support Files/Pods-CutIT/Pods-CutIT.release.xcconfig"; sourceTree = "<group>"; };
+		93D0E819E1AA2676B1F340E6 /* Pods-CutIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CutIT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CutIT/Pods-CutIT.debug.xcconfig"; sourceTree = "<group>"; };
 		C54F916F2220165400DDFCA4 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		C54F91712220209400DDFCA4 /* PropositionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropositionCell.swift; sourceTree = "<group>"; };
+		C54F91722220209400DDFCA4 /* PropositionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropositionCell.xib; sourceTree = "<group>"; };
+		C5BF8E15222551940002E0BE /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,17 +59,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B65988F8B5B23E6262FE0C /* Pods_CutIT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		414B81CFA2D3A83DDE378DE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				050883980CA4666BD364E1B4 /* Pods_CutIT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5134014621FD958300C8AF8D = {
 			isa = PBXGroup;
 			children = (
 				5134015121FD958300C8AF8D /* CutIT */,
 				5134015021FD958300C8AF8D /* Products */,
+				A251E5DB73EF2D646A3B3141 /* Pods */,
+				414B81CFA2D3A83DDE378DE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,9 +112,12 @@
 				5134016821FD963B00C8AF8D /* HomeView.swift */,
 				5134016921FD963B00C8AF8D /* HomeWireframe.swift */,
 				5134015621FD958300C8AF8D /* Home.storyboard */,
+				C54F91712220209400DDFCA4 /* PropositionCell.swift */,
+				C54F91722220209400DDFCA4 /* PropositionCell.xib */,
 				5134017421FDCFAE00C8AF8D /* SearchTextField.swift */,
 				5134017C21FDF41E00C8AF8D /* BookingCell.swift */,
 				C54F916F2220165400DDFCA4 /* GradientView.swift */,
+				C5BF8E15222551940002E0BE /* Header.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -110,6 +134,15 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		A251E5DB73EF2D646A3B3141 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93D0E819E1AA2676B1F340E6 /* Pods-CutIT.debug.xcconfig */,
+				6294744A17031A0D260172C3 /* Pods-CutIT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5134016121FD958500C8AF8D /* Build configuration list for PBXNativeTarget "CutIT" */;
 			buildPhases = (
+				1BFCC93F2EFD7D4F8967C3B5 /* [CP] Check Pods Manifest.lock */,
 				5134014B21FD958300C8AF8D /* Sources */,
 				5134014C21FD958300C8AF8D /* Frameworks */,
 				5134014D21FD958300C8AF8D /* Resources */,
+				DEEF5DF01E12B48EB1027FB7 /* [CP] Embed Pods Frameworks */,
+				DBEC3F1D7E8529B899F3BDF0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,10 +210,65 @@
 				5134015821FD958300C8AF8D /* Home.storyboard in Resources */,
 				5134017321FDCDDD00C8AF8D /* SFUIText-Regular.otf in Resources */,
 				5134017121FDA11C00C8AF8D /* SFUIText-Bold.ttf in Resources */,
+				C54F91742220209400DDFCA4 /* PropositionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BFCC93F2EFD7D4F8967C3B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CutIT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBEC3F1D7E8529B899F3BDF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CutIT/Pods-CutIT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEEF5DF01E12B48EB1027FB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CutIT/Pods-CutIT-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CutIT/Pods-CutIT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5134014B21FD958300C8AF8D /* Sources */ = {
@@ -189,9 +280,11 @@
 				5134017521FDCFAE00C8AF8D /* SearchTextField.swift in Sources */,
 				5134016E21FD963B00C8AF8D /* HomeWireframe.swift in Sources */,
 				5134016D21FD963B00C8AF8D /* HomeView.swift in Sources */,
+				C5BF8E16222551940002E0BE /* Header.swift in Sources */,
 				5134017D21FDF41E00C8AF8D /* BookingCell.swift in Sources */,
 				5134016C21FD963B00C8AF8D /* HomeInteractor.swift in Sources */,
 				5134015321FD958300C8AF8D /* AppDelegate.swift in Sources */,
+				C54F91732220209400DDFCA4 /* PropositionCell.swift in Sources */,
 				C54F91702220165400DDFCA4 /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +429,7 @@
 		};
 		5134016221FD958500C8AF8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93D0E819E1AA2676B1F340E6 /* Pods-CutIT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -353,6 +447,7 @@
 		};
 		5134016321FD958500C8AF8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6294744A17031A0D260172C3 /* Pods-CutIT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
